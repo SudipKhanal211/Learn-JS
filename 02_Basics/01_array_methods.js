@@ -58,8 +58,24 @@ slice= myArr.slice(0,5);
 
 arr1= [1,2,3,4,5,6,7,8]
 splice= arr1.splice(2,6)
-console.log(splice);
-console.log(arr1)
+// console.log(splice);
+// console.log(arr1)
+
+
+// .concat() is used to join arrays.
+
+array1= [8,4,5,7];
+array2= [1,2,3];
+
+concat= array1.concat(array2);
+console.log(concat);
+
+// we can also create array like :
+
+console.log(Array.from ("Sudip"))
+console.log(Array.of ("Sudip"))
+// the difference between of and from is that : of takes whole string as a one element of array and from takes each characters as element of array.
+
 
 
 
