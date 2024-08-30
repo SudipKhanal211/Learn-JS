@@ -1,5 +1,5 @@
 /*
-Datatype conversion os the peocess which conatins certain keywords to change the type of data.  
+Datatype conversion is the peocess which conatins certain keywords to change the type of data.  
     for example: 
     // let age= 20
 // console.log(typeof (age));  => this will give number as the output.
@@ -65,5 +65,3 @@ let gameCounter = 100
 ++gameCounter;
 console.log(gameCounter);
 
-// link to study
-// https://tc39.es/ecma262/multipage/abstract-operations.html#sec-type-conversion
