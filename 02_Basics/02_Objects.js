@@ -62,3 +62,58 @@ console.log(person1.name)
 delete person1.profession
 
 console.log(person1)
+
+
+
+
+// Lets jump on singleton object.
+
+let app = new Object();
+//new Object() creates singleton object
+
+app.id="abc";
+app.name="Sudip";
+app.isLogedIn= true;
+
+console.log(app);
+
+
+
+// Nested Object.
+
+obj1= {
+    email:"Sudip@gmail.com",
+    fullName:{
+        userName:{
+            firstName:"Sudip",
+            lastName:"Khanal",
+        }
+    }
+}
+// print lastname:
+console.log(obj1.fullName.userName.lastName);
+
+// Merge Objects:
+
+let object1={
+    address:"Nepal",
+    religion: "Hindu",
+}
+let object2={
+    language:"Nepali"
+}
+
+let mergeObj={...object1,...object2}
+console.log(mergeObj);
+
+// NOTE: If the name of properties are same in both object it overwites the value.
+
+
+
+// Get Key or values of object:
+key=Object.keys(object1)
+values= Object.values(object2)
+console.log(key);
+console.log(values);
+
+// NOTE: It return the collection of key or object in array.
