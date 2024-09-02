@@ -117,3 +117,16 @@ console.log(key);
 console.log(values);
 
 // NOTE: It return the collection of key or object in array.
+
+
+// Object De-Structure: Object destructuring is a convenient way to extract specific properties from an object and assign them to variables. This technique is particularly useful when working with objects with many properties, allowing you to pick out the ones you need in a clean and concise way.
+
+deStructure ={
+    Course: "JS fro fullstack",
+    Duration: "3 Months",
+    Practice: "5 Projects"
+}
+
+let {Duration}= deStructure 
+console.log(Duration)
+
