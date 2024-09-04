@@ -47,4 +47,18 @@ function checkObject(anyObject) {
 checkObject(User);
 
 
-// 
+// Array in Function:
+
+
+// Declare an array with three elements: a string, a number, and another string
+const myArray = ["sudip", 20, "Developer"];
+
+// Define a function named 'Element' that takes an array as an argument
+function Element(getArray) {
+    // Return the array that was passed as an argument to the function
+    return getArray;
+}
+
+// Call the 'Element' function with 'myArray' as the argument
+// and log the returned array to the console
+console.log(Element(myArray));
