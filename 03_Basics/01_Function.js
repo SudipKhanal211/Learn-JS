@@ -62,3 +62,18 @@ function Element(getArray) {
 // Call the 'Element' function with 'myArray' as the argument
 // and log the returned array to the console
 console.log(Element(myArray));
+
+
+// ______________Immedietly invoked function_______________
+
+// Immediately Invoked Function Expressions (IIFE)
+
+
+(function fn(){
+    // named IIFE
+    console.log(`DB CONNECTED`);
+})();
+
+( (name) => {
+    console.log(`DB CONNECTED TWO ${name}`);
+} )('Sudip')
