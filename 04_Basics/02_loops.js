@@ -46,7 +46,7 @@ for (let i = 1; i <=20; i++) {
 // break:
 
 for (let i = 0; i <11; i++) {
-    console.log(i)
+    // console.log(i)
     if (i==5) { 
         break
         // break will not allow to print further loops and end the program.
@@ -57,8 +57,46 @@ for (let i = 0; i <11; i++) {
 // continue
 for (let i = 0; i <11; i++) {
     if (i==5) { 
-        console.log(`number 5`)
+        // console.log(`number 5`)
         continue
         // continue will allow to print further loop by skiping number 5
     }
 }
+
+/*likely we also have while and do while loop:
+while:
+    syntax::
+    while (condition) {
+        code 
+    }
+
+    */
+// write a code to print all odd numbers from 1 to 10
+
+let i=1
+
+while (i<=10) {
+  
+    if (i%2==0) {
+    console.log(i)
+        
+    } else {
+        console.log("odd number")
+    }
+    i++
+}
+
+
+// do while:
+    // Syntax:
+
+    a=1
+
+    do {
+        if (a%2==0) {
+            console.log("even number")
+        } else {
+            console.log(a);
+        }
+        a++
+    } while (a<=10);
