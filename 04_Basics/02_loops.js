@@ -78,10 +78,10 @@ let i=1
 while (i<=10) {
   
     if (i%2==0) {
-    console.log(i)
+    // console.log(i)
         
     } else {
-        console.log("odd number")
+        // console.log("odd number")
     }
     i++
 }
@@ -94,9 +94,44 @@ while (i<=10) {
 
     do {
         if (a%2==0) {
-            console.log("even number")
+            // console.log("even number")
         } else {
-            console.log(a);
+            // console.log(a);
         }
         a++
     } while (a<=10);
+
+
+    // Similarly we also have array loops.
+
+    // for of:
+
+    arr=[1,3,5,7,8,2,6]
+    for (const num of arr) {
+        if (num %2==1){
+            // console.log(num)
+        }
+    }
+
+// We also can use for of loop for strings and maps.
+
+// we cannot use for of loop for object so we use for in loops.
+
+// For in:
+
+myObj={
+    name: "Sudip",
+    age: 20,
+    address: "Nepal",
+    Occupation: "Student",
+}
+// here new object is created lets use for in loop.
+
+for (const key in myObj) {   
+    // console.log(key);
+    
+    console.log(key, " ", myObj[key]);
+    
+
+}
+
