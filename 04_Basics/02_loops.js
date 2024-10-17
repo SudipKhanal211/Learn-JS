@@ -135,3 +135,46 @@ for (const key in myObj) {
 
 }
 
+
+// ForEach loop:
+
+// this is used in array:
+
+const coding=["Javascript","java","Python","C#"]
+    coding.forEach( (name)=>{
+    // console.log(name);
+})
+
+// We can inject function inside foreach loop as well:
+
+fun= ()=>{
+    console.log("Hello JS Learners");
+    
+}
+
+
+coding.forEach(fun)
+
+// LETS SEE HOW TO HANDLE OBJECT INSIDE ARRAY:
+
+ const myCodename= [
+    {
+        name:"Javascript",
+        filename:"js"
+    },
+    {
+        name:"Python",
+        filename:"py"
+    },
+    {
+        name:"JAVA",
+        filename:"java"
+    }
+ ]
+ myCodename.forEach((item)=>{
+    // console.log(item)
+    console.log(item.name)
+    console.log(item.filename)
+
+
+ })
